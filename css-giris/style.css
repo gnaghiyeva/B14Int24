@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+    align-items: center;
+    background-color: brown;
+}
+
+.left_side{
+    color: white;
+}
+
+#first_name, #second_name, #third_name{
+    font-size: 60px;
+}
+
+span{
+    font-size: 25px;
+}
