@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212529;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.title{
+    color: #FFC800;
+    font-style: italic;
+}
+.list_item_link{
+    text-decoration: none;
+    color: #FFC800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.twitter_icon{
+    font-size: 50px;
+    color: black;
+}
