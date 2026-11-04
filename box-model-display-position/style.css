@@ -1,0 +1,40 @@
+.container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+/* .box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+} */
+
+/* .displays {
+  display: inline-block;
+}
+
+.box {
+  border: 1px solid violet;
+} */
+
+.position{
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+     height: 200px;
+    /* left: 20px;
+    top: 30px; */
+}
+
+.box{
+     border: 1px solid black;
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     left: 20px;
+     top: 30px;
+}
