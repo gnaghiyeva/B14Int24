@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar md:navbar-expand bg-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarDrawer"
+          aria-controls="navbarDrawer"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarDrawer"
+          aria-labelledby="navbarDrawerLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body mb-2 md:mb-0">
+            <ul class="nav navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="nav-link"
+                  type="button"
+                  data-bs-toggle="menu"
+                  aria-expanded="false"
+                >
+                  Menu
+                </button>
+                <div class="menu">
+                  <a class="menu-item" href="#">Action</a>
+                  <a class="menu-item" href="#">Another action</a>
+                  <hr class="menu-divider" />
+                  <a class="menu-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+
+    <section class="container text-center cards_container">
+      <div class="row">
+        <div class="col-6 card" style="max-width: 320px">
+          <img
+            src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE="
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="col-6 card" style="max-width: 320px">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELbqv9b1j6V1HPCXLBdv3fyb4IwoncHhxUR_Vm2w2X_dwnxFUNax_eloK&s=10"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="col-6 card" style="max-width: 320px">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoi9vhCuTNBgtx8f93AOvidAHq0CffrihFEobziVEhuRMiM1Bf3FEfyl0b&s=10"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container text-center  ">
+      <!-- <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+      </div> -->
+      <div class="row d-flex justify-content-center">
+        <div class="col-6 myDiv">col</div>
+        <div class="col-6 myDiv">col</div>
+      </div>
+    </div>
+    <!-- <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <label for="range1" class="form-label">Example range</label>
+    <!-- <div class="form-range">
+      <input type="range" class="form-range-input" id="range1" />
+    </div> -->
+
+    <!-- Təqdimat verilənlər
+    <input type="checkbox" id="check" class="check" checked />Talib
+     <input type="checkbox" id="check" class="check" checked />Eldar -->
+
+    <div class="form-field">
+      <input
+        type="checkbox"
+        id="checkprimary"
+        class="check theme-success"
+        checked
+      />
+      <label for="checkprimary">Example primary checkbox</label>
+    </div>
+    <!-- <div>
+      <button type="button" class="btn-outline theme-success">Primary</button>
+    </div> -->
+
+    <label for="exampleFormControlInput" class="form-label mb-2"
+      >Email address</label
+    >
+    <input
+      type="email"
+      class="form-control"
+      id="exampleFormControlInput"
+      placeholder="name@example.com"
+    />
+
+    <div class="form-field">
+      <label for="exampleFormControlTextarea2" class="form-label"
+        >Taller textarea</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea2"
+        rows="4"
+      ></textarea>
+    </div>
+
+    <div id="carouselStackedBottom" class="carousel slide">
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYvQs_n_fIqfduy9oMhjkC2OQ5bZf2kUroJVvn8xq7dpvtyk42QMdGhLd&s=10"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgI3fF6_ebdidZr1lnTEvKusZLVuw2ZKsrhm_Xtxn6ZdQlOo9PBRq1v2VW&s=10"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Vy79hlcGego9WSkKST6XQFQU2NnNV0o4o1bOGoAc_oUSdaV-ONtPuTH0&s=10"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <div>
+        <button
+          class="btn-icon btn-sm"
+          type="button"
+          data-bs-target="#carouselStackedBottom"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-icon-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="btn-icon btn-sm"
+          type="button"
+          data-bs-target="#carouselStackedBottom"
+          data-bs-slide="next"
+        >
+          <span class="carousel-icon-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn-solid theme-primary flex-grow-0" id="liveAlertBtn">Show live alert</button>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
